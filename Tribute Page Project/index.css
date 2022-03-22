@@ -1,0 +1,21 @@
+body{
+  background-color: #DCDCDC;
+}
+#title{
+  text-align:center;
+  font-family: monospace;
+}
+
+#img-div{
+  text-align:center;
+}
+
+#image{
+ max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+
+}
+
+a { color: inherit; } 
