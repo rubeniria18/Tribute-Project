@@ -1,21 +1,42 @@
 body{
-  background-color: #DCDCDC;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
 }
+
 #title{
-  text-align:center;
-  font-family: monospace;
+  
 }
 
 #img-div{
-  text-align:center;
+  text-align: center;
 }
 
 #image{
- max-width: 100%;
+  
   display: block;
-  height: auto;
-  margin: auto;
-
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
-a { color: inherit; } 
+#img-caption{
+  
+}
+
+#tribute-info{
+  
+}
+
+#tribute-link{
+   color: black;
+  text-decoration: none;
+}
+
+#Slava{
+  text-align: center;
+  animation-name: Slava;
+  animation: Slava 5s infinite;
+}
+@keyframes Slava {
+  from {background-color: yellow;}
+  to {background-color: blue;}
